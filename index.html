@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "styles.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <script src = "script.js" defer></script>
+<div class = "numpad">
+        <button id ="zero" value = "0" onclick = display(value)>0</button>
+        <button id ="one" value = "1" onclick= display(value)>1</button>
+        <button id ="two" value = "2" onclick = display(value)>2</button>
+        <button id ="three" value = "3" onclick = display(value)>3</button>
+        <button id ="four" value = "4" onclick = display(value)>4</button>
+        <button id ="five" value = "5" onclick = display(value)>5</button>
+        <button id ="six" value = "6" onclick = display(value)>6</button>
+        <button id ="seven" value = "7" onclick = display(value)>7</button>
+        <button id ="eight" value = "8" onclick = display(value)>8</button>
+        <button id ="nine" value = "9" onclick = display(value)>9</button>
+
+        <button id = "add" value = "+" onclick = display(value)>+</button>
+        <button id = "subtract" value = "-" onclick = display(value)>-</button>
+        <button id = "multiply" value = "x" onclick = display(value)>x</button>
+        <button id = "divide" value = "/" onclick = display(value)>/</button>
+
+       <button id = "equal" value = "=" onclick = display(value)>=</button>
+
+</div>
+    <button id = "clear" onclick="Clear()">Clear</button>
+    <div class ="display">
+        
+    </div>
+</body>
+</html>
